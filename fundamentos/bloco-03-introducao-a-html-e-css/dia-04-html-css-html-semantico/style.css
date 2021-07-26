@@ -1,0 +1,41 @@
+body, a{
+    color: rgb(243, 40, 33);
+    background-color: burlywood;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin:0 50px;
+    padding: 1em;
+}
+.general-facts p:nth-of-type(1){
+    float: left;
+    width: 70%;
+}
+#classification li{
+    list-style: none;
+}
+
+#classification{
+    float: right;
+    width: 23%;
+    font-weight: 600;
+}
+
+.curious-facts{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: antiquewhite;
+    padding: 0.5em;
+}
+
+ul{
+    text-align: center;
+}
