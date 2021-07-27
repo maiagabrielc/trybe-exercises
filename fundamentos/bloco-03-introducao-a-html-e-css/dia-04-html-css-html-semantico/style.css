@@ -1,41 +1,88 @@
-body, a{
-    color: rgb(243, 40, 33);
-    background-color: burlywood;
+body {
+  color: #c33764;
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* W3C, IE 10+/ Edge, Fir efox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-nav li{
-    list-style: none;
-    display: inline-block;
-    margin:0 50px;
-    padding: 1em;
-}
-.general-facts p:nth-of-type(1){
-    float: left;
-    width: 70%;
-}
-#classification li{
-    list-style: none;
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 50px;
+  padding: 1.2em;
 }
 
-#classification{
-    float: right;
-    width: 23%;
-    font-weight: 600;
+nav {
+  width: auto;
 }
 
-.curious-facts{
-    clear: both;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-a{
-    text-decoration: none;
+.general-facts p:nth-of-type(1) {
+  float: left;
+  width: 70%;
 }
 
-a:hover{
-    background-color: antiquewhite;
-    padding: 0.5em;
+#classification {
+  text-align: center;
+  color: #1d2671;
 }
 
-ul{
-    text-align: center;
+thead th {
+  text-align: center;
+}
+
+#classification {
+  float: right;
+  width: 23%;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  background-color: rgba(80, 100, 100, 0.15);
+  padding: 0.5em;
+}
+
+ul,
+footer {
+  text-align: center;
+}
+
+.curious-facts,
+footer {
+  clear: both;
+}
+
+.curious-facts section {
+  width: 500px;
+}
+aside {
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  /* height: 252px; */
+  width: auto;
+}
+
+div.curious-facts {
+  /* display: inline-block; */
+  float: left;
 }
