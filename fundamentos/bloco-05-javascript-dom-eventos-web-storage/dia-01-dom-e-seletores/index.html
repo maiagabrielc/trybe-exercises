@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.querySelector("p");
+      paragraph.style.background = "red";
+      const titulo = document.querySelector("h2");
+      titulo.innerText = "Meu Malvado Favorito";
+      const segundoP = document.querySelector("p:nth-child(4)");
+      segundoP.innerText = "Segundo parágrafo alterado";
+      segundoP.style.padding = "75px";
+      segundoP.style.color = "violet";
+      const subTitulo = document.querySelector("header h4");
+      subTitulo.innerText = "Changes need to be done!";
+      const subTitulo2 = document.querySelectorAll("h4");
+      subTitulo2[0].style.background = "magenta";
+    </script>
+  </body>
+</html>
