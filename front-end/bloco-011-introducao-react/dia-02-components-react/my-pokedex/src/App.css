@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  /* justify-content: center; */
+  /* width: 90vw; */
+}
+
+.poke-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 25%;
+}
