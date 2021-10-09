@@ -48,12 +48,13 @@ class App extends Component {
     // this.setState((prevState, _props) => ({
     //   numberClicks: prevState.numberClicks + 1,
     // }))
+    const { numberClicks2 } = this.state;
     this.setState((prevState, _props) => ({
       numberClicks2: prevState.numberClicks2 + 2,
     }))
-    console.log(this.state.numberClicks2);
+    console.log(numberClicks2 + 2);
 
-    if ((this.state.numberClicks2 % 3) === 0) {
+    if (((numberClicks2 + 2) % 3) === 0) {
       this.setState({
         bg: "red",
       })
