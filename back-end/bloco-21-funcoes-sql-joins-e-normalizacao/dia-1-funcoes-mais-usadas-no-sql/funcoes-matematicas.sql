@@ -1,0 +1,33 @@
+SELECT 5 + 5;
+SELECT 5 - 5;
+SELECT 5 * 5;
+SELECT 5 / 5;
+SELECT 10 DIV 3;
+SELECT 10 MOD 3;
+
+SELECT rental_duration + rental_rate FROM sakila.film LIMIT 10;
+SELECT rental_duration - rental_rate FROM sakila.film LIMIT 10;
+SELECT rental_duration * rental_rate FROM sakila.film LIMIT 10;
+SELECT rental_duration / rental_rate FROM sakila.film LIMIT 10;
+
+SELECT ROUND(10.49);
+SELECT ROUND(10.51);
+SELECT ROUND(10.49593, 2);
+SELECT ROUND(10.51593, 3);
+
+SELECT CEIL(10.51);
+SELECT CEIL(10.49);
+SELECT CEIL(10.2);
+
+SELECT FLOOR(10.51);
+SELECT FLOOR(10.49);
+SELECT FLOOR(10.2);
+
+SELECT POW(2, 2);
+SELECT POW(2, 4);
+
+SELECT SQRT(9);
+SELECT SQRT(16);
+
+SELECT RAND();
+SELECT ROUND(7 + (RAND() * 6));
