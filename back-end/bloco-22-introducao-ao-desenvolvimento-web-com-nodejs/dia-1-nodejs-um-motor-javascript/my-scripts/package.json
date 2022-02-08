@@ -8,5 +8,8 @@
     "imc": "node imc.js"
   },
   "author": "Gabriel Maia",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
