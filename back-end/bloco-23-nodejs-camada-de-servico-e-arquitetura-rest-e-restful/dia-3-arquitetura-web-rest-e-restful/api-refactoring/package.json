@@ -6,12 +6,16 @@
   "author": "Gabriel Carvalho Maia",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "debug": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
+    "eslint-config-trybe-backend": "^1.0.4",
     "nodemon": "^2.0.15"
   }
 }
