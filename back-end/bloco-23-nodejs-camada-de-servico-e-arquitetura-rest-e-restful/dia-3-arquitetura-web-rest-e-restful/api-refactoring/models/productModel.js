@@ -1,4 +1,3 @@
-/* eslint-disable consistent-return */
 const connection = require('./connection');
 
 const add = async (name, brand) => {
