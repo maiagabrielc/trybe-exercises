@@ -15,3 +15,15 @@ console.log(`Quadrado de lado 100cm: ${Exercise.square(10)}cm²`);
 console.log(`Retângulo de base 10cm e altura 25cm: ${Exercise.rectangle(10, 25)}cm²`);
 console.log(`Retângulo de base 5cm e altura 30cm: ${Exercise.rectangle(5, 30)}cm²`);
 console.log(`Retângulo de base 100cm e altura 200cm: ${Exercise.rectangle(10, 25)}cm²`);
+
+console.log(`Calcule a área de um losango que tem D = 32cm e d = 18cm: ${Exercise.diamond(32, 18)}cm²`);
+console.log(`Calcule a área de um losango que tem D = 200cm e d = 50cm: ${Exercise.diamond(200, 50)}cm²`);
+console.log(`Calcule a área de um losango que tem D = 75cm e d = 25cm: ${Exercise.diamond(75, 25)}cm²`);
+
+console.log(`Calcule a área de um trapézio que tem B = 100cm, b = 70cm e altura = 50cm: ${Exercise.trapezio(100, 70, 50)}cm²`);
+console.log(`Calcule a área de um trapézio que tem B = 75cm, b = 50cm e altura = 35cm: ${Exercise.trapezio(75, 50, 35)}cm²`);
+console.log(`Calcule a área de um trapézio que tem B = 150cm, b = 120cm e altura = 80cm: ${Exercise.trapezio(150, 120, 80)}cm²`);
+
+console.log(`Área de um círculo com raio de 25cm: ${Exercise.areaCirculo(25)}cm²`);
+console.log(`Área de um círculo com raio de 100cm: ${Exercise.areaCirculo(100)}cm²`);
+console.log(`Área de um círculo com raio de 12.5cm: ${Exercise.areaCirculo(12.5)}cm²`);
