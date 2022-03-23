@@ -25,3 +25,16 @@ export function square(side: number): number {
 export function rectangle(base: number, height: number): number {
   return base * height;
 }
+
+export function diamond(sideA: number, sideB: number) {
+  return (sideA * sideB) / 2;
+}
+
+export function trapezio(basemaior: number, baseMenor: number, altura: number) {
+  return ((basemaior + baseMenor) * altura) / 2;
+}
+
+export function areaCirculo(raio: number) {
+  const PI = 3.14;
+  return PI * (raio ** 2);
+}
