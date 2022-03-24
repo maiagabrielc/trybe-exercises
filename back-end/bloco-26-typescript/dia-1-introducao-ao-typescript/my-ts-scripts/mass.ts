@@ -1,14 +1,8 @@
-import { makeError } from './length'
+import utils from "./utils";
 const massUnits = ["kg", "hg", "dag", "g", "dg", "cg", "mg"];
 
 function convertMass(value: number, forUnity: string, toUnity: string): number {
 
-  if (!massUnits.includes(forUnity)) makeError(forUnity);
-  if (!massUnits.includes(toUnity)) makeError(toUnity);
+  return utils.convert(massUnits, value, forUnity, toUnity);;
 
-  const forIndex = massUnits.indexOf(forUnity);
-  const toIndex = massUnits.indexOf(toUnity);
-  const exponent = (toIndex - forIndex);
-
-  return value * Math.pow(10, exponent);
 }
